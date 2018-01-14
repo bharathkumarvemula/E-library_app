@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bharathvemula.e_library.Genre$PlaceholderFragment"
+                android:background="@drawable/ed"
+    >
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listeducation"
+
+        android:layout_below="@+id/section_label"
+        android:elevation="13dp"
+        android:background="@color/cast_expanded_controller_seek_bar_progress_background_tint_color">
+
+
+    </ListView>
+
+</RelativeLayout>

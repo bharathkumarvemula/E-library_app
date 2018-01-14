@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.bharathvemula.e_library.Downloadpage"
+   android:background="@drawable/dw"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:text="Click Below to Download"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textColorHint="@color/cast_intro_overlay_button_background_color"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rating"
+        android:layout_alignRight="@+id/download"
+        android:layout_alignEnd="@+id/download"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/ratingtext"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <Button
+        android:text="Download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/download"
+        android:layout_below="@+id/ratingtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb_ratingbar"
+        android:layout_marginBottom="11dp"
+        android:rating="2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+        android:text="Rate here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:layout_above="@+id/rb_ratingbar"
+        android:layout_alignLeft="@+id/download"
+        android:layout_alignStart="@+id/download"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:text="Log out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ratingtext"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginTop="21dp"
+        android:id="@+id/logout"
+        android:textColor="?android:attr/textColorPrimaryDisableOnly"
+        android:background="@android:color/holo_green_dark" />
+
+</RelativeLayout>
+

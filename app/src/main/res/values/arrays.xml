@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Genre_array">
+        <item>Education</item>
+        <item>Fiction</item>
+        <item>Comedy</item>
+    </string-array>
+
+
+</resources>

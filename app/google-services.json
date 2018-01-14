@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "560767896076",
+    "firebase_url": "https://e-library-5a69c.firebaseio.com",
+    "project_id": "e-library-5a69c",
+    "storage_bucket": "e-library-5a69c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560767896076:android:fc873fc74c5d1952",
+        "android_client_info": {
+          "package_name": "com.example.bharathvemula.e_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560767896076-ib0e24cv7qkb8bnpq0d0r5ec244in4sp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bharathvemula.e_library",
+            "certificate_hash": "1725332689ee9c8b9b0101779f239f704aad16c4"
+          }
+        },
+        {
+          "client_id": "560767896076-5l7sleu4ebrodgmvtm7ftmpuo2e0ulf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR1C-eGuwSkkyRsX-R6819XivD8BomABM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560767896076-5l7sleu4ebrodgmvtm7ftmpuo2e0ulf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
